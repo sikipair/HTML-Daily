@@ -12,10 +12,13 @@
 .box-2 {
   background-color: blueviolet;
   position: absolute;
+  left: 0;
 }
 .box-3 {
   background-color: coral;
 }
 .box-4 {
   background-color: forestgreen;
+  position: absolute;
+  left: 0;
 }
