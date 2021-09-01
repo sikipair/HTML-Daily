@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+A {
+  color: #000;
+  text-decoration: none;
+}
+a:hover {
+  color: blue;
+}
+.navbar {
+  box-shadow: 0 2px 20px rgba(211, 200, 200, 0.2);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar__lists {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+.navbar__item {
+  margin-left: 50px;
+  font-size: 22px;
+}
