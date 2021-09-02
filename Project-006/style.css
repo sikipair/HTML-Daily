@@ -12,7 +12,7 @@ a:hover {
 }
 .navbar {
   box-shadow: 0 2px 20px rgba(211, 200, 200, 0.2);
-  height: 80px;
+  height: 75px;
   display: flex;
   justify-content: center;
   align-items: center;
