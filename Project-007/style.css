@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: blueviolet;
+}
+.navbar {
+  height: 100px;
+  box-shadow: 0 3px 30px rgba(247, 237, 237, 0.767);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar__lists {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+.navbar__item1 {
+  font-size: 18px;
+}
+.navbar__item2 {
+  padding-left: 70px;
+  font-size: 18px;
+}
+.navbar__item3 {
+  padding-left: 70px;
+  font-size: 18px;
+}
