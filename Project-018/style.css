@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Mali:wght@200;300;400;500;600;700&display=swap");
+html {
+  font-size: 62.5%;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Mali", cursive;
+}
+.box {
+  background-color: cadetblue;
+  padding: 20px;
+  font-size: 2rem;
+  font-weight: 700;
+}
