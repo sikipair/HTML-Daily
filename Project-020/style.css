@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Mali:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mali", cursive;
+}
+img {
+  width: 300px;
+  height: 300px;
+}
+html {
+  font-size: 62.5%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(18, 20, 26);
+  width: 100vw;
+  height: 100vh;
+}
+.name {
+  color: white;
+  font-size: 5rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 1.2rem;
+}
+.icon__container {
+  display: flex;
+}
+.icon a {
+  color: white;
+  font-size: 6rem;
+}
+.icon:hover a {
+  color: rgb(36, 87, 252);
+}
+.icon--margin__left {
+  margin-left: 30px;
+}
