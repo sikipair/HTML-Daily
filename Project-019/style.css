@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(158, 158, 158);
+  width: 100vw;
+  height: 100vh;
+}
+img {
+  width: 400px;
+  height: 250px;
+}
+.name {
+  color: white;
+  font-size: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+.icon__container {
+  display: flex;
+}
+.icon a {
+  color: white;
+  font-size: 4rem;
+}
+.icon:hover a {
+  color: turquoise;
+}
+.icon--margin__left {
+  margin-left: 30px;
+}
