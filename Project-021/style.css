@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: #708090;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bear {
+  width: calc(200px * 2);
+  height: calc(125px * 2);
+}
+.name {
+  color: white;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.link {
+  font-size: 4rem;
+  color: white;
+}
+.icon {
+  margin-bottom: 0.5rem;
+}
+@media screen and (min-width: 768px) {
+  .icon__container {
+    display: flex;
+    justify-content: space-between;
+    width: 16rem;
+  }
+  .icon {
+    margin-bottom: 0;
+  }
+}
