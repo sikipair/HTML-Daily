@@ -33,7 +33,7 @@
   .icon__container {
     display: flex;
     justify-content: space-between;
-    width: 16rem;
+    width: 15rem;
   }
   .icon {
     margin-bottom: 0;
