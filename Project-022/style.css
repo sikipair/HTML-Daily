@@ -1,1 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Mali:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mali", cursive;
+}
 
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  box-shadow: 0 0 15px rgb(187, 187, 187);
+}
+
+.logo {
+  width: 150px;
+  margin: 2rem;
+}
+
+.list {
+  display: none;
+}
+.login {
+  display: none;
+}
+
+.hamburger {
+  font-size: 2.5rem;
+  margin-right: 3rem;
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+@media screen and (min-width: 1120px) {
+  .list {
+    display: block;
+  }
+  .login {
+    display: block;
+  }
+  .hamburger {
+    display: none;
+  }
+  .left__navber {
+    display: flex;
+  }
+  .left__container {
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+  }
+  .list {
+    font-size: 2.5rem;
+    margin-left: 4rem;
+  }
+  .link {
+    color: black;
+  }
+  .link:hover {
+    color: rgb(33, 72, 248);
+  }
+  .login {
+    font-size: 2.5rem;
+    margin-right: 5rem;
+    margin-top: 1.5rem;
+  }
+}
