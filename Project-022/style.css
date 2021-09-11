@@ -17,7 +17,6 @@ a {
 .navbar {
   display: flex;
   justify-content: space-between;
-  margin: 1rem;
   box-shadow: 0 0 15px rgb(187, 187, 187);
 }
 
@@ -52,7 +51,7 @@ a {
   .left__navber {
     display: flex;
   }
-  .left__container {
+  .list__container {
     display: flex;
     align-items: center;
     margin-left: 2rem;
