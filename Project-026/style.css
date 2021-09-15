@@ -5,3 +5,55 @@
   margin: 0;
   box-sizing: border-box;
 }
+.container {
+  background-color: #141414;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  z-index: 1;
+  font-size: 3rem;
+  font-weight: 500;
+  color: white;
+}
+.title {
+  color: white;
+  font-weight: 400;
+  font-size: 3rem;
+  margin-bottom: 2.5rem;
+}
+.user__group {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+.user {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(172, 71, 255);
+}
+.user:hover {
+  border: 5px solid#fff;
+  cursor: pointer;
+}
+.name1 {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+}
+.name2 {
+  display: flex;
+  justify-content: space-between;
+}
+.name3 {
+  display: flex;
+  width: 400px;
+  justify-content: center;
+}
