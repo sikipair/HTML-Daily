@@ -43,17 +43,20 @@
   border: 5px solid#fff;
   cursor: pointer;
 }
-.name1 {
+.name {
   display: flex;
-  width: 400px;
-  justify-content: space-between;
+  color: white;
+  margin-top: 20px;
+}
+.name1 {
+  position: relative;
+  right: 115px;
 }
 .name2 {
-  display: flex;
-  justify-content: space-between;
+  position: relative;
+  left: 15px;
 }
 .name3 {
-  display: flex;
-  width: 400px;
-  justify-content: center;
+  position: relative;
+  left: 125px;
 }
