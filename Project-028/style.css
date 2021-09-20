@@ -1,0 +1,44 @@
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  display: flex;
+  width: 100vw;
+  height: 80px;
+  background-color: rgb(212, 212, 212);
+}
+.logo__container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 20px;
+}
+.text__container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 50px;
+}
+.img {
+  width: 124px;
+  height: 44px;
+}
+.text__container {
+  display: flex;
+}
+.text {
+  margin: 20px;
+  color: black;
+  font-size: 1.5rem;
+}
+.text:hover {
+  color: blue;
+} */
