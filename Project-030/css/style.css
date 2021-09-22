@@ -12,6 +12,9 @@ html {
 a {
   text-decoration: none;
 }
+
+/* NAVBAR */
+
 .navbar {
   display: flex;
   padding: 1.2rem;
@@ -57,3 +60,5 @@ a {
     color: #da5c45;
   }
 }
+
+/* HELLO */
