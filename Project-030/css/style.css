@@ -162,10 +162,10 @@ a {
 .card__btn:hover {
   color: #f07f6b;
 }
-/* @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .new__container {
     display: grid;
     grid-template-columns: repeat(4, 25%);
     justify-items: center;
   }
-} */
+}
