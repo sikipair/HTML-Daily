@@ -34,3 +34,10 @@ a {
   align-items: center;
   justify-content: center;
 }
+
+.title1 {
+  font-size: 2rem;
+}
+.title {
+  font-size: 2rem;
+}
