@@ -11,3 +11,16 @@ html {
 a {
   text-decoration: none;
 }
+.container {
+  background-color: rgb(214, 214, 214);
+  width: 100vw;
+  height: 100vh;
+}
+.text__container {
+  background-color: rgb(36, 35, 35);
+  width: 40rem;
+  height: 65rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
