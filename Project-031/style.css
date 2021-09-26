@@ -16,11 +16,13 @@ a {
   width: 100vw;
   height: 100vh;
 }
+.big__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .text__container {
   background-color: rgb(36, 35, 35);
   width: 40rem;
   height: 65rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
