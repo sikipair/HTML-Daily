@@ -11,6 +11,10 @@ html {
 a {
   text-decoration: none;
 }
+.logo {
+  font-size: 5rem;
+  font-weight: 700;
+}
 .container {
   background-color: rgb(214, 214, 214);
   width: 100vw;
