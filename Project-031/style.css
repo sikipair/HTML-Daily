@@ -59,6 +59,7 @@ a {
   width: 32rem;
   text-align: center;
 }
+
 .start {
   color: rgb(255, 255, 255);
   background-color: red;
@@ -67,4 +68,7 @@ a {
   font-weight: 500;
   width: 32rem;
   text-align: center;
+
+  position: relative;
+  top: 5rem;
 }
