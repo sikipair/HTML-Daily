@@ -36,8 +36,28 @@ a {
 }
 
 .title1 {
-  font-size: 2rem;
+  font-size: 4rem;
+  color: white;
+  font-weight: 500;
 }
-.title {
+.title2 {
+  font-size: 4rem;
+  color: white;
+  font-weight: 500;
+}
+.name {
+  background-color: white;
   font-size: 2rem;
+  padding: 25px;
+  font-weight: 500;
+  width: 32rem;
+}
+.start {
+  color: rgb(255, 255, 255);
+  background-color: red;
+  font-size: 4rem;
+  padding: 25px;
+  font-weight: 500;
+  width: 32rem;
+  text-align: center;
 }
