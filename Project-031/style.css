@@ -39,6 +39,9 @@ a {
   font-size: 4rem;
   color: white;
   font-weight: 500;
+  position: relative;
+  bottom: 15rem;
+  right: 2rem;
 }
 .title2 {
   font-size: 4rem;
