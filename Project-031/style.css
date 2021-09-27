@@ -41,12 +41,15 @@ a {
   font-weight: 500;
   position: relative;
   bottom: 15rem;
-  right: 2rem;
+  right: 7rem;
 }
 .title2 {
   font-size: 4rem;
   color: white;
   font-weight: 500;
+  position: relative;
+  bottom: 14rem;
+  left: 2rem;
 }
 .name {
   background-color: white;
