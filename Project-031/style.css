@@ -51,12 +51,13 @@ a {
   padding: 25px;
   font-weight: 500;
   width: 32rem;
+  text-align: center;
 }
 .start {
   color: rgb(255, 255, 255);
   background-color: red;
   font-size: 4rem;
-  padding: 25px;
+  padding: 10px 25px;
   font-weight: 500;
   width: 32rem;
   text-align: center;
