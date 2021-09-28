@@ -50,7 +50,7 @@ a {
   font-weight: 500;
   position: relative;
   bottom: 7rem;
-  left: 2rem;
+  left: 3.5rem;
 }
 .name {
   background-color: white;
@@ -60,7 +60,7 @@ a {
   width: 32rem;
   text-align: center;
   position: relative;
-  top: 2rem;
+  top: 4rem;
 }
 
 .start {
@@ -70,7 +70,6 @@ a {
   font-weight: 500;
   width: 32rem;
   text-align: center;
-
   position: relative;
-  top: 7rem;
+  top: 9rem;
 }
