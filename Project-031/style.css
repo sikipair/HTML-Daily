@@ -10,6 +10,7 @@ html {
 }
 a {
   text-decoration: none;
+  color: white;
 }
 .logo {
   font-size: 5rem;
@@ -36,32 +37,33 @@ a {
 }
 
 .title1 {
-  font-size: 4rem;
+  font-size: 3rem;
   color: white;
   font-weight: 500;
   position: relative;
-  bottom: 15rem;
+  bottom: 10rem;
   right: 7rem;
 }
 .title2 {
-  font-size: 4rem;
+  font-size: 3rem;
   color: white;
   font-weight: 500;
   position: relative;
-  bottom: 14rem;
+  bottom: 7rem;
   left: 2rem;
 }
 .name {
   background-color: white;
-  font-size: 2rem;
-  padding: 25px;
+  font-size: 2.5rem;
+  padding: 50px 25px;
   font-weight: 500;
   width: 32rem;
   text-align: center;
+  position: relative;
+  top: 2rem;
 }
 
 .start {
-  color: rgb(255, 255, 255);
   background-color: red;
   font-size: 4rem;
   padding: 10px 25px;
@@ -70,5 +72,5 @@ a {
   text-align: center;
 
   position: relative;
-  top: 5rem;
+  top: 7rem;
 }
