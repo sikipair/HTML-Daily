@@ -79,4 +79,10 @@ a {
   top: 9rem;
 }
 
-/*  */
+/* USER */
+
+.user__container {
+  background-color: rgb(214, 214, 214);
+  width: 100vw;
+  height: 100vh;
+}
