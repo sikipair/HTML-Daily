@@ -95,6 +95,9 @@ a {
 }
 
 .big__user__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .user__container {
   background-color: white;
