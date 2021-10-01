@@ -107,3 +107,7 @@ a {
   justify-content: center;
   align-items: center;
 }
+.title {
+  font-size: 3rem;
+  border: black;
+}
