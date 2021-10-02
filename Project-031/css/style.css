@@ -109,5 +109,5 @@ a {
 }
 .title {
   font-size: 3rem;
-  border: black;
+  border: 5px solid black;
 }
