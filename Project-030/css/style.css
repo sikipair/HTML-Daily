@@ -47,6 +47,7 @@ a {
   }
   .navlink {
     display: flex;
+
     align-items: center;
   }
   .bars {
@@ -165,7 +166,14 @@ a {
 @media screen and (min-width: 768px) {
   .new__container {
     display: grid;
-    grid-template-columns: repeat(4, 25%);
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 50%);
     justify-items: center;
   }
 }
+@media screen and (min-width: 1400px) {
+  .new__container {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    justify-items: center;
+  }
