@@ -118,6 +118,10 @@ html {
     position: relative;
     bottom: 3rem;
   }
+  .hero__btn{
+    position: relative;
+      bottom: 3rem;
+  }
   .hero__image img {
     width: 52.2rem;
   }
