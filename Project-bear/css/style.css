@@ -115,8 +115,10 @@ html {
   }
   .hero__title2 {
     font-size: 8.5rem;
+    position: relative;
+    bottom: 3rem;
   }
   .hero__image img {
     width: 52.2rem;
   }
-}
+
