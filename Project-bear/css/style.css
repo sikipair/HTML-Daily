@@ -101,7 +101,7 @@ html {
 .hero__image img {
   width: 31.2rem;
 }
-/* @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .hero {
     display: flex;
     padding: 0 20rem;
@@ -119,4 +119,4 @@ html {
   .hero__image img {
     width: 52.2rem;
   }
-} */
+}
