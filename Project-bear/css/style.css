@@ -118,12 +118,125 @@ html {
     position: relative;
     bottom: 3rem;
   }
-  .hero__btn{
+  .hero__btn {
     position: relative;
-      bottom: 3rem;
+    bottom: 3rem;
   }
   .hero__image img {
     width: 52.2rem;
   }
+}
 
-/* CARD */
+/* CHARACTER */
+.character {
+  margin-top: 6.7rem;
+  margin-bottom: 3rem;
+}
+.character__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.character__title {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.character__tagline {
+  font-size: 1.8rem;
+}
+.character__card__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.character__card {
+  width: 27rem;
+  height: 33.7rem;
+  border: 1px solid #000;
+  border-radius: 55px;
+  background-color: #da5c45;
+  display: flex;
+  align-items: center;
+  margin-top: 4rem;
+}
+.character__card img {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .character__tagline {
+    font-size: 2.2rem;
+  }
+  .character__title {
+    font-size: 6rem;
+  }
+  .character__card__container {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 15rem;
+    flex-wrap: wrap;
+  }
+  .character__card {
+    width: 35rem;
+    height: 45rem;
+  }
+}
+
+/* NEWS */
+.news {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.news__card {
+  margin-top: 3rem;
+  width: 24.5rem;
+  height: 31rem;
+  background-color: #da5c45;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 55px;
+  border: 3px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.news__image img {
+  width: 20rem;
+  margin-bottom: 2rem;
+}
+.news__btn {
+  width: 14.2rem;
+  height: 4.6rem;
+  background-color: white;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.4rem;
+  cursor: pointer;
+}
+.news__btn:hover {
+  color: white;
+  background-color: black;
+}
+@media screen and (min-width: 768px) {
+  .news {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .news__card {
+    margin: 4rem 4rem;
+    width: 27.2rem;
+    height: 34rem;
+  }
+  .news__image img {
+    width: 20rem;
+  }
+  .news__btn {
+    width: 16.4rem;
+    height: 5.4rem;
+  }
+}
