@@ -15,3 +15,9 @@ html {
   justify-content: space-between;
   padding: 0.7rem;
 }
+.navbar__logo img {
+  width: 17rem;
+}
+.navbar__lists {
+  display: none;
+}
