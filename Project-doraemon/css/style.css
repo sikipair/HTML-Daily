@@ -21,3 +21,8 @@ html {
 .navbar__lists {
   display: none;
 }
+.navbar__bar {
+  font-size: 2.2rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
