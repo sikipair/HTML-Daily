@@ -240,4 +240,10 @@ html {
     height: 5.4rem;
   }
 }
-/* SHOPPING */
+/* CONTACT */
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
