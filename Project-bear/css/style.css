@@ -293,4 +293,10 @@ html {
     width: 35rem;
     height: 35rem;
   }
+  .contact__btn {
+    font-size: 2.4rem;
+    width: 30rem;
+    height: 6rem;
+    margin-top: 1rem;
+  }
 }
