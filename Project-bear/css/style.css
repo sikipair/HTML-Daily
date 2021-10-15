@@ -250,7 +250,7 @@ html {
 .contact__card {
   margin-top: 3rem;
   width: 32rem;
-  height: 31rem;
+  height: 32rem;
   background-color: #da5c45;
   display: flex;
   flex-direction: column;
@@ -263,7 +263,8 @@ html {
 .contact__bar {
   width: 21rem;
   margin-bottom: 2rem;
-  background-color: #fff;
+  background-color: #000;
+  color: white;
   border-radius: 40px;
   height: 18.5rem;
   text-align: center;
@@ -281,7 +282,6 @@ html {
   justify-content: center;
   align-items: center;
   border-radius: 16px;
-  font-weight: 400;
 }
 @media screen and (min-width: 768px) {
   .contact {
@@ -290,5 +290,7 @@ html {
   }
   .contact__card {
     margin: 1.5rem 8.7rem;
+    width: 35rem;
+    height: 35rem;
   }
 }
