@@ -58,7 +58,7 @@ html {
     text-decoration: none;
   }
   .lists a:hover {
-    color: #3e3aff;
+    color: #2a92f3;
   }
   .navbar__bar {
     display: none;
@@ -75,7 +75,7 @@ html {
   margin-top: 3rem;
   width: 32rem;
   height: 32rem;
-  background-color: #3e3aff;
+  background-color: #2a92f3;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -106,7 +106,6 @@ html {
   justify-content: center;
   align-items: center;
   border-radius: 16px;
-  font-weight: 400;
 }
 @media screen and (min-width: 768px) {
   .contact {
