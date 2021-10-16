@@ -141,15 +141,13 @@ html {
   font-size: 4rem;
   font-weight: 700;
 }
-.character__tagline {
-  font-size: 1.8rem;
-}
+
 .character__card__container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 .character__card {
   width: 27rem;
@@ -158,12 +156,34 @@ html {
   border-radius: 55px;
   background-color: #da5c45;
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
   margin-top: 4rem;
 }
 .character__card img {
-  width: 100%;
+  width: 85%;
 }
+.character__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.character__btn {
+  width: 20rem;
+  height: 5rem;
+  font-size: 2rem;
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  font-weight: 500;
+  border: 1px solid #000;
+}
+
 @media screen and (min-width: 768px) {
   .character__tagline {
     font-size: 2.2rem;
@@ -180,6 +200,12 @@ html {
   .character__card {
     width: 35rem;
     height: 45rem;
+  }
+  .character__btn {
+    width: 25rem;
+    height: 6rem;
+    margin-top: 1.5rem;
+    font-size: 2.4rem;
   }
 }
 
