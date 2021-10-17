@@ -124,7 +124,7 @@ html {
 @media screen and (min-width: 768px) {
   .hero__image1 img {
     width: 60rem;
-    border: 5px solid #1c325f;
+    border: 5px solid #000;
   }
 
   .title1 {
@@ -136,8 +136,8 @@ html {
     width: 150rem;
   }
   .hero__image2 img {
-    width: 60rem;
-    border: 5px solid;
+    width: 70rem;
+    border: 5px solid #000;
   }
   .title2 {
     font-size: 4rem;
