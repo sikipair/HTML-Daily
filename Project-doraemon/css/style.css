@@ -197,6 +197,7 @@ html {
   font-size: 2.4rem;
   color: #1c325f;
   margin-bottom: 1rem;
+  font-weight: 500;
 }
 .character__btn2 {
   font-size: 1.8rem;
@@ -222,6 +223,7 @@ html {
   }
   .character__btn1 {
     font-size: 3rem;
+    font-weight: 600;
   }
   .character__btn2 {
     font-size: 2.2rem;
@@ -275,6 +277,7 @@ html {
   font-size: 2.4rem;
   color: #1c325f;
   margin-bottom: 1rem;
+  font-weight: 500;
 }
 .magic__btn2 {
   font-size: 1.8rem;
@@ -300,6 +303,7 @@ html {
   }
   .magic__btn1 {
     font-size: 3rem;
+    font-weight: 600;
   }
   .magic__btn2 {
     font-size: 2.2rem;
