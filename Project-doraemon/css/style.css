@@ -74,7 +74,7 @@ html {
 .hero__image1 img {
   width: 35rem;
   border-radius: 20px;
-  border: 3px solid #000;
+  border: 3px solid black;
 }
 .text1 {
   display: flex;
@@ -195,7 +195,7 @@ html {
 .character__btn1 {
   margin-top: 1rem;
   font-size: 2.4rem;
-  color: #000;
+  color: #1c325f;
   margin-bottom: 1rem;
 }
 .character__btn2 {
