@@ -227,3 +227,81 @@ html {
     font-size: 2.2rem;
   }
 }
+
+/* MAGIC TOYS */
+.magic {
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.magic__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.magic__title {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.magic__card__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.magic__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.magic__img img {
+  width: 25rem;
+  height: 25rem;
+  border-radius: 20px;
+  border: 3px solid #000;
+  background-color: white;
+  margin-top: 2rem;
+}
+.magic__btn1 {
+  margin-top: 1rem;
+  font-size: 2.4rem;
+  color: #1c325f;
+  margin-bottom: 1rem;
+}
+.magic__btn2 {
+  font-size: 1.8rem;
+  width: 45rem;
+  margin-bottom: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .magic__card {
+    margin: 2rem 3rem;
+  }
+  .magic__card__container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .magic__img img {
+    width: 35rem;
+    height: 35rem;
+    border: 5px solid #000;
+  }
+  .magic__title {
+    font-size: 4rem;
+    font-weight: 600;
+  }
+  .magic__btn1 {
+    font-size: 3rem;
+  }
+  .magic__btn2 {
+    font-size: 2.2rem;
+  }
+}
