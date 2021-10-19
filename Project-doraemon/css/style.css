@@ -231,6 +231,84 @@ html {
 }
 
 /* MOIVES */
+.movie {
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.movie__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.movie__title {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.movie__card__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.movie__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.movie__img img {
+  width: 25rem;
+  height: 25rem;
+  border-radius: 20px;
+  border: 3px solid #000;
+  background-color: white;
+  margin-top: 2rem;
+}
+.movie__btn1 {
+  margin-top: 1rem;
+  font-size: 2.4rem;
+  width: 50rem;
+  margin-bottom: 1rem;
+  color: #1c325f;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .movie__card {
+    margin: 2rem 3rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .movie__img img {
+    width: 35rem;
+    height: 35rem;
+    border: 5px solid #000;
+    margin-right: 5rem;
+  }
+  .movie__title {
+    font-size: 4rem;
+    font-weight: 600;
+  }
+  .movie__btn1 {
+    font-size: 3rem;
+    color: #1c325f;
+    font-weight: 600;
+    width: 70rem;
+  }
+}
 
 /* MAGIC TOYS */
 .magic {
