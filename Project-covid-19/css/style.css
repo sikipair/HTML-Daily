@@ -18,7 +18,7 @@ html {
   flex-direction: column;
 }
 .hero1 {
-  margin-top: 3rem;
+  margin-top: 4rem;
   display: flex;
   justify-content: center;
 }
@@ -57,7 +57,7 @@ html {
 }
 .title22 {
   font-size: 2.4rem;
-  color: red;
+  color: blueviolet;
   font-weight: 500;
 }
 .btn2 {
@@ -135,6 +135,6 @@ html {
   }
   .btn3 {
     font-size: 2.2rem;
-    width: 140rem;
+    width: 90rem;
   }
 }
